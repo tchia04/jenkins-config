@@ -33,7 +33,7 @@
     <configVersion>2</configVersion>
     <userRemoteConfigs>
       <hudson.plugins.git.UserRemoteConfig>
-        <url>git@github.com:tchia04/bats.git</url>
+        <url>git@github.com:tchia04/test.git</url>
         <credentialsId>aa927f51-d7bb-4515-ba28-c3d659250000</credentialsId>
       </hudson.plugins.git.UserRemoteConfig>
     </userRemoteConfigs>
