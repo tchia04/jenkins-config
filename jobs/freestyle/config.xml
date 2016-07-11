@@ -54,16 +54,7 @@
   <concurrentBuild>false</concurrentBuild>
   <builders>
     <hudson.tasks.Shell>
-      <command>#!/bin/sh
-echo &quot;do we have git?&quot;
-which git
-git --help
-
-echo &quot;do we have maven?&quot;
-which mvn
-
-mvn --help
-echo &quot;done&quot;</command>
+      <command>cat test.out</command>
     </hudson.tasks.Shell>
   </builders>
   <publishers>
