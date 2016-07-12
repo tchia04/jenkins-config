@@ -60,7 +60,7 @@
       <sudo>false</sudo>
       <sudoUser></sudoUser>
       <forks>5</forks>
-      <unbufferedOutput>true</unbufferedOutput>
+      <unbufferedOutput>false</unbufferedOutput>
       <colorizedOutput>true</colorizedOutput>
       <hostKeyChecking>false</hostKeyChecking>
       <additionalParameters></additionalParameters>
