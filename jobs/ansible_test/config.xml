@@ -60,18 +60,11 @@
       <sudo>false</sudo>
       <sudoUser></sudoUser>
       <forks>5</forks>
-      <unbufferedOutput>false</unbufferedOutput>
+      <unbufferedOutput>true</unbufferedOutput>
       <colorizedOutput>true</colorizedOutput>
       <hostKeyChecking>false</hostKeyChecking>
       <additionalParameters></additionalParameters>
       <copyCredentialsInWorkspace>false</copyCredentialsInWorkspace>
-      <extraVars>
-        <org.jenkinsci.plugins.ansible.ExtraVar>
-          <key></key>
-          <value></value>
-          <hidden>false</hidden>
-        </org.jenkinsci.plugins.ansible.ExtraVar>
-      </extraVars>
     </org.jenkinsci.plugins.ansible.AnsiblePlaybookBuilder>
   </builders>
   <publishers/>
