@@ -28,7 +28,7 @@
   <concurrentBuild>false</concurrentBuild>
   <builders>
     <org.jenkinsci.plugins.ansible.AnsiblePlaybookBuilder plugin="ansible@0.5">
-      <playbook></playbook>
+      <playbook>./ping_playbook.yml</playbook>
       <inventory class="org.jenkinsci.plugins.ansible.InventoryContent">
         <content>localhost</content>
         <dynamic>false</dynamic>
