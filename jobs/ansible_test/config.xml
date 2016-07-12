@@ -48,7 +48,7 @@
     <org.jenkinsci.plugins.ansible.AnsiblePlaybookBuilder plugin="ansible@0.5">
       <playbook>./ping_playbook.yml</playbook>
       <inventory class="org.jenkinsci.plugins.ansible.InventoryContent">
-        <content>localhost</content>
+        <content>localhost ansible_connection=local</content>
         <dynamic>false</dynamic>
       </inventory>
       <ansibleName>ansible 1.9.4</ansibleName>
