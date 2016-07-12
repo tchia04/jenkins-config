@@ -58,20 +58,6 @@
     </hudson.tasks.Shell>
   </builders>
   <publishers>
-    <hudson.tasks.BuildTrigger>
-      <childProjects>freestyle_test</childProjects>
-      <threshold>
-        <name>SUCCESS</name>
-        <ordinal>0</ordinal>
-        <color>BLUE</color>
-        <completeBuild>true</completeBuild>
-      </threshold>
-    </hudson.tasks.BuildTrigger>
-    <hudson.plugins.descriptionsetter.DescriptionSetterPublisher plugin="description-setter@1.10">
-      <regexp></regexp>
-      <regexpForFailed></regexpForFailed>
-      <setForMatrix>false</setForMatrix>
-    </hudson.plugins.descriptionsetter.DescriptionSetterPublisher>
     <hudson.plugins.statusmonitor.MonitorPublisher plugin="statusmonitor@1.3"/>
   </publishers>
   <buildWrappers>
