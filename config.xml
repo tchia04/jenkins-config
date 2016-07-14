@@ -1,8 +1,8 @@
 <?xml version='1.0' encoding='UTF-8'?>
 <hudson>
   <disabledAdministrativeMonitors/>
-  <version>2.12</version>
-  <numExecutors>2</numExecutors>
+  <version>2.13</version>
+  <numExecutors>5</numExecutors>
   <mode>NORMAL</mode>
   <useSecurity>true</useSecurity>
   <authorizationStrategy class="hudson.security.FullControlOnceLoggedInAuthorizationStrategy">
@@ -33,7 +33,7 @@
       <filterQueue>false</filterQueue>
       <properties class="hudson.model.View$PropertyList"/>
     </hudson.model.AllView>
-    <se.diabol.jenkins.pipeline.DeliveryPipelineView plugin="delivery-pipeline-plugin@0.9.11">
+    <se.diabol.jenkins.pipeline.DeliveryPipelineView plugin="delivery-pipeline-plugin@0.9.12">
       <owner class="hudson" reference="../../.."/>
       <name>test</name>
       <filterExecutors>false</filterExecutors>
@@ -54,6 +54,7 @@
       <showPromotions>false</showPromotions>
       <showTestResults>false</showTestResults>
       <showStaticAnalysisResults>false</showStaticAnalysisResults>
+      <linkRelative>false</linkRelative>
       <pagingEnabled>false</pagingEnabled>
       <showAggregatedChanges>false</showAggregatedChanges>
       <theme>default</theme>
