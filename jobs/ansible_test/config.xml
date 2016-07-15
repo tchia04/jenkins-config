@@ -22,7 +22,7 @@
         <hudson.model.StringParameterDefinition>
           <name>git_branch_name</name>
           <description></description>
-          <defaultValue>master</defaultValue>
+          <defaultValue>dummy_branch_name</defaultValue>
         </hudson.model.StringParameterDefinition>
       </parameterDefinitions>
     </hudson.model.ParametersDefinitionProperty>
