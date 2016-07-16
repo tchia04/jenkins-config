@@ -1,5 +1,6 @@
 <?xml version='1.0' encoding='UTF-8'?>
 <project>
+  <actions/>
   <description></description>
   <keepDependencies>false</keepDependencies>
   <properties>
@@ -9,6 +10,14 @@
       <scanQueueFor>DISABLED</scanQueueFor>
       <blockingJobs></blockingJobs>
     </hudson.plugins.buildblocker.BuildBlockerProperty>
+    <xyz.quoidneufdocker.jenkins.dockerslaves.spec.ContainerSetDefinition plugin="docker-slaves@0.5">
+      <buildHostImage class="xyz.quoidneufdocker.jenkins.dockerslaves.spec.DockerfileContainerDefinition">
+        <dockerfile>Dockerfile</dockerfile>
+        <contextPath></contextPath>
+        <forcePull>false</forcePull>
+      </buildHostImage>
+      <sideContainers class="empty-list"/>
+    </xyz.quoidneufdocker.jenkins.dockerslaves.spec.ContainerSetDefinition>
     <com.sonyericsson.jenkins.plugins.bfa.model.ScannerJobProperty plugin="build-failure-analyzer@1.16.0">
       <doNotScan>false</doNotScan>
     </com.sonyericsson.jenkins.plugins.bfa.model.ScannerJobProperty>
