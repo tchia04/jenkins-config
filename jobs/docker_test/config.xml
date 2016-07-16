@@ -13,7 +13,7 @@
     <xyz.quoidneufdocker.jenkins.dockerslaves.spec.ContainerSetDefinition plugin="docker-slaves@0.5">
       <buildHostImage class="xyz.quoidneufdocker.jenkins.dockerslaves.spec.DockerfileContainerDefinition">
         <dockerfile>Dockerfile</dockerfile>
-        <contextPath></contextPath>
+        <contextPath>./</contextPath>
         <forcePull>false</forcePull>
       </buildHostImage>
       <sideContainers class="empty-list"/>
